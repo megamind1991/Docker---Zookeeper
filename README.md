@@ -22,3 +22,15 @@
             - hbasesoft-network            
     networks:
       hbasesoft-network:
+
+
+docker stack deploy -c docker-compose.yml getstartedlab
+
+
+docker stack ps getstartedlab
+
+docker stack rm getstartedlab
+
+docker node ls
+
+docker swarm leave --force
