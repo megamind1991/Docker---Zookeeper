@@ -24,7 +24,7 @@
       hbasesoft-network:
 
 
-docker stack deploy -c docker-compose.yml getstartedlab
+*docker stack deploy -c /home/liujie/zookeeper/zookeeper.yml zookeeper-cluster*
 
 
 docker stack ps getstartedlab
